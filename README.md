@@ -1,9 +1,26 @@
-This AI system can answer questions based on a specific knowledge base, which is a key technique to prevent AI "hallucinations" and ensure fact-based answers.
+## Mini Retrieval-Augmented Generation (RAG) System
 
-In this project, I:
+This project is a simple RAG system built in Python using Hugging Face Transformers.
+It retrieves relevant context from a custom knowledge base and generates precise, fact-based answers.
 
-🔹 Used sentence-transformers (MiniLM) to create semantic embeddings and retrieve relevant documents.
+## 🔍 Features
 
-🔹 Used a transformer QA model (DistilBERT) to extract precise answers from the retrieved context.
+Retriever: Sentence-transformers (MiniLM) for semantic similarity search
+Generator: DistilBERT QA model for extracting answers from retrieved text
+Extended Knowledge: Added custom facts (e.g., about Mars)
+Interactive QA: Users can query and test responses in Colab
 
-🔹 Extended the system's knowledge base and successfully tested it with new questions.
+## 📘 Tech Stack
+
+* Python
+* Hugging Face Transformers
+* SentenceTransformers
+* Google Colab
+  
+## 📊 Example
+Input question: What is the average distance between Earth and Mars?
+
+Output: The average distance is about 225 million kilometers.
+
+## 📂 Files
+mini_rag_system.ipynb: Main project notebook
