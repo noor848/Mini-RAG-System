@@ -6,8 +6,11 @@ It retrieves relevant context from a custom knowledge base and generates precise
 ## 🔍 Features
 
 Retriever: Sentence-transformers (MiniLM) for semantic similarity search
+
 Generator: DistilBERT QA model for extracting answers from retrieved text
+
 Extended Knowledge: Added custom facts (e.g., about Mars)
+
 Interactive QA: Users can query and test responses in Colab
 
 ## 📘 Tech Stack
